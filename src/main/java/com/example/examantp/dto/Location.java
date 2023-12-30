@@ -1,0 +1,15 @@
+package com.example.examantp.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Location {
+    private String floor;
+    private String room;
+}
